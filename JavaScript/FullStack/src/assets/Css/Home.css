@@ -1,0 +1,11 @@
+.nav{
+    color:brown;
+    text-align: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    flex: 80% 20%;
+    height:625px;
+    justify-content: space-between;
+}
