@@ -9,6 +9,12 @@ import About from './Components/ClassComponents/FunctionalComponents/About'
 import Gallery from './Components/ClassComponents/FunctionalComponents/Gallery'
 import Contact from './Components/ClassComponents/FunctionalComponents/ContactPage'
 import Footer from './Components/ClassComponents/FunctionalComponents/Footer'
+import UseEffect from './Components/ClassComponents/FunctionalComponents/UseEffect'
+import UseEffect2 from './Components/ClassComponents/FunctionalComponents/UseEffect2'
+import UseRef from './Components/ClassComponents/FunctionalComponents/UseRef'
+import UseContext from './Components/ClassComponents/FunctionalComponents/UseContext'
+import UseRef2 from './Components/ClassComponents/FunctionalComponents/UseRef2'
+import UseMemo from './Components/ClassComponents/FunctionalComponents/UseMemo'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -22,6 +28,12 @@ function App() {
           <Route path='/about' element={<About College="Kec" course="Aiml"/>}/>
           <Route path='/ContactPage' element={<Contact/>}/>
           <Route path='/Gallery' element={<Gallery/>}/>
+          <Route path='/UseEff' element={<UseEffect/>}/>
+          <Route path='/UseEff2' element={<UseEffect2/>}/>
+          <Route path='/UseRef' element={<UseRef/>}/>
+          <Route path='/UseContext' element={<UseContext/>}/>
+          <Route path='/UseRef2' element={<UseRef2/>}/>
+          <Route path='/UseMemo' element={<UseMemo/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>

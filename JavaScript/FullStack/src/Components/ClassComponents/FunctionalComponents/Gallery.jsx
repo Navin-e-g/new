@@ -3,7 +3,7 @@ import React, { useState } from "react";
 var Gallery=()=>{
     var styling={
         height:"600px",
-    }
+    };
     var year = 2024
     var [number,setCount]=useState(0);
     function Increment(){
