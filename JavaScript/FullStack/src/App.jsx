@@ -15,6 +15,8 @@ import UseRef from './Components/ClassComponents/FunctionalComponents/UseRef'
 import UseContext from './Components/ClassComponents/FunctionalComponents/UseContext'
 import UseRef2 from './Components/ClassComponents/FunctionalComponents/UseRef2'
 import UseMemo from './Components/ClassComponents/FunctionalComponents/UseMemo'
+import Signup from './Components/ClassComponents/FunctionalComponents/Signup'
+import Login from './Components/ClassComponents/FunctionalComponents/Login'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path='/UseContext' element={<UseContext/>}/>
           <Route path='/UseRef2' element={<UseRef2/>}/>
           <Route path='/UseMemo' element={<UseMemo/>}/>
+          <Route path='/Signup' element={<Signup/>}/>
+          <Route path='/Login' element={<Login/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>
