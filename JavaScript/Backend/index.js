@@ -40,6 +40,8 @@ app.post('/signup',(req,res)=>{
             email:email,
             password:password,
         })
+
+        
         newUser.save()
         console.log("successfull");
         res.status(200).send("User Added Successfully")
